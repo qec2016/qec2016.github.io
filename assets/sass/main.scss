@@ -88,11 +88,23 @@ hr {
 .hero {
   background: url("../images/backgrounds/hero.jpg") center center no-repeat;
   background-size: cover;
+  padding: 22em 0 16em;
 }
 
 
 .hero__logo {
-  width: 100%;
+  width: 80%;
+}
+
+.hero__date {
+  color: white;
+  font: $bold 5em "Raleway", sans-serif;
+  text-transform: uppercase;
+  margin: 1.5em 0.5em 0;
+
+  @media screen and (max-width: 500px) {
+    font-size: 3em;
+  }
 }
 
 
