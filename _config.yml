@@ -1,0 +1,19 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: The Queen's Entrepreneur's Competition
+email: admin@theqec.com
+description: >
+  The Queen's Entrepreneur's Competition is back for 2017 and better than ever.
+  Enter Canada's longest-running undergraduate business plan competition for a chance
+  at over $60,000 in prizes.
+baseurl: ""
+url: "http://theqec.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

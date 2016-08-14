@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="319px" height="240px" viewBox="0 0 319 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>climbing.rep</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs>
+        <linearGradient x1="32.6926917%" y1="34.9245233%" x2="50%" y2="70.0063345%" id="linearGradient-1">
+            <stop stop-color="#39C2DE" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-2" d="M3,186.254386 L92.816367,156.430941 L178.61867,87.408742 L222.067194,39.4716708 L315.715168,4 L315.715179,239.976562 L3,239.976562"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-2" sketch:type="MSArtboardGroup">
+            <g id="Reputation-Graph" sketch:type="MSLayerGroup">
+                <g id="Path-1">
+                    <use fill="none" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="Graph-Pattern" stroke="#39C2DE" stroke-width="2" sketch:type="MSShapeGroup">
+                    <path d="M3,185 L92.6109604,155.218182 L178.217037,86.292322 L221.566196,38.4221603 L315,3" id="Path-1"></path>
+                    <path d="M3.5,188 C5.43299672,188 7,186.432997 7,184.5 C7,182.567003 5.43299672,181 3.5,181 C1.56700328,181 0,182.567003 0,184.5 C0,186.432997 1.56700328,188 3.5,188 Z" id="Oval-1" fill="#FFFFFF"></path>
+                    <circle id="Oval-1" fill="#FFFFFF" cx="93.5" cy="155.5" r="3.5"></circle>
+                    <circle id="Oval-1" fill="#FFFFFF" cx="178.5" cy="85.5" r="3.5"></circle>
+                    <circle id="Oval-1" fill="#FFFFFF" cx="223.5" cy="38.5" r="3.5"></circle>
+                    <circle id="Oval-1" fill="#FFFFFF" cx="315.5" cy="3.5" r="3.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,86 @@
+// FONTS
+// -----
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700);
+
+
+@font-face {
+	font-family: "materialIcon";
+	src: url('../fonts/icomoon/fonts/icomoon.ttf'),
+		 url('../fonts/icomoon/fonts/icomoon.eot'),
+		 url('../fonts/icomoon/fonts/icomoon.svg'),
+		 url('../fonts/icomoon/fonts/icomoon.woff');
+}
+
+
+@font-face {
+	font-family: "materialIcon2";
+	src: url('../fonts/icomoon2/fonts/icomoon.ttf'),
+		 url('../fonts/icomoon2/fonts/icomoon.eot'),
+		 url('../fonts/icomoon2/fonts/icomoon.svg'),
+		 url('../fonts/icomoon2/fonts/icomoon.woff');
+}
+
+
+// ICON SETUP
+// ----------
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-device_hub:before {
+	content: "\e130";
+}
+
+
+.icon-layers:before {
+	content: "\e1d3";
+}
+
+
+.icon-notifications:before {
+	content: "\e24a";
+}
+
+
+.icon-accessibility:before {
+	content: "\e264";
+}
+
+
+.icon-facebook2:before {
+	content: "\e606";
+}
+
+
+.icon-twitter2:before {
+	content: "\e609";
+}
+
+
+.icon-email:before {
+	content: "\e04c";
+}
+
+
+// FONT WEIGHTS
+// ------------
+
+$ultralight : 100;
+$light 		: 300;
+$regular 	: 400;
+$medium 	: 500;
+$semibold 	: 600;
+$bold 		: 700;

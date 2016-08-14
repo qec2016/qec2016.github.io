@@ -1,0 +1,451 @@
+// BASE
+// ----
+
+@import "base/reset";
+@import "base/typography";
+@import "base/layout";
+
+
+// HELPERS
+// -------
+
+@import "helpers/clearfix";
+@import "helpers/boxmodel";
+
+
+// COMPONENTS
+// ----------
+
+@import "components/buttons";
+@import "components/navigation";
+@import "components/partner";
+@import "components/masthead";
+
+
+// SETUP
+// -----
+
+body {
+  // bootstrap font-size: 14px overwritten
+  font-size: 62.5%;
+  background: rgb(245,245,245);
+  overflow-x: hidden;
+}
+
+.blue {
+  background: rgb(57,194,222);
+}
+
+.green {
+  background: rgb(195,210,70);
+}
+
+.light-blue {
+  background: rgb(248,251,253);
+}
+
+
+// MAIN
+// ----
+
+hr {
+  margin: 0;
+}
+
+
+.iceberg {
+  background: rgb(57,194,222);
+  //background: url("../images/backgrounds/sunrise.png") center center / 100% no-repeat;
+}
+
+
+.community-housing {
+  background: url("../images/backgrounds/community.housing.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+
+.canoeing {
+  background: url("../images/backgrounds/canoeing.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+
+.entrepreneur-hallway {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)),
+  url("../images/backgrounds/entrepreneur.hallway.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+
+.windows {
+  background: linear-gradient(rgba(100,110,150,0.6), rgba(100,140,100,0.8)),
+  url("../images/backgrounds/windows.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+
+.hero {
+  background: url("../images/backgrounds/hero.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+
+.hero__logo {
+  width: 100%;
+}
+
+
+.accolades {
+  background: rgb(248,248,248);
+  border-top: 1px solid rgb(224,224,224);
+  border-bottom: 1px solid rgb(224,224,224);
+}
+
+
+.accolade {
+  padding: 6em 2.5em;
+
+  & .accolade__logo__container {
+    display: block;
+    width: 100%;
+    height: 8em;
+    margin: 0 auto;
+    margin-bottom: 2.5em;
+    text-align: center;
+
+    & .accolade__logo__helper {
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+
+    & .accolade__logo {
+      display: inline-block;
+      margin: 0 auto;
+      vertical-align: middle;
+      max-height: 100%;
+    }
+
+  }
+
+  & .accolade__name {
+    font: $medium 1.2em "Raleway";
+    color: rgb(150,150,150);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0.833333333em;
+  }
+
+  & .accolade__quote {
+    font: $regular 1.6em/24px "Raleway";
+    color: rgb(124,124,124);
+    text-align: center;
+  }
+
+}
+
+
+.subscribe {
+  background: rgb(55,59,63);
+}
+
+
+.sub__heading {
+  font: 500 2.4em "Raleway";
+  color: rgb(255,255,255);
+  text-align: center;
+  margin-bottom: 0.83333333em;
+}
+
+
+.community {
+  background: rgb(57,194,222);
+}
+
+
+.section-text {
+  font: 500 1.4em/1.8em "Raleway";
+}
+
+
+.section-text--center {
+  text-align: center;
+  max-width: 660px;
+  margin: 0 auto;
+  margin-bottom: 2.857142857em;
+}
+
+
+.section-text--white {
+  color: rgb(255,255,255);
+}
+
+
+.section-text--blue {
+  color: rgb(147,166,185);
+}
+
+
+.community > .row {
+  background: url("../images/patterns/community.background.svg") center center repeat-x, no-repeat;
+}
+
+
+.sponsors {
+  display: block;
+  margin: 0 auto;
+  width: 50em;
+  margin-bottom: 3em;
+}
+
+
+.content__heading {
+  font: $medium 2.4em/1.5 "Raleway";
+  color: rgb(55,55,55);
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+
+.content__heading--sub {
+  font: $medium 2.2em/1.181818 "Raleway";
+  color: rgb(55,55,55);
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.content__heading--no-margin {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+
+.content__heading--competitor {
+  font-size: 3em;
+  color: rgb(60,70,90);
+  max-width: 800px;
+}
+
+.content__bullet {
+  font: $regular 2em/1.5 "Raleway";
+  color: rgb(140,140,140);
+  margin-bottom: 0.83333333em;
+}
+
+
+.content__bullet--sub {
+  font: $regular 1.8em/1.5 "Raleway";
+  color: rgb(100,100,100);
+  text-align: center;
+}
+
+
+.content__bullet--w-button {
+  display: inline-block;
+}
+
+
+.sponsor-link {
+  font: $bold 2em/6.4em "Raleway";
+  display: block;
+  height: 6.4em;
+  width: 100%;
+  color: rgb(147,166,185);
+  text-align: center;
+  text-transform: uppercase;
+
+  &:hover, &:link, &:hover, &:active {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+}
+
+
+.sponsor-link--blue {
+  color: rgb(57,194,222);
+}
+
+
+.loyalty-one {
+  background: url("../images/logos/lologo.png") center center no-repeat;
+}
+
+
+.toronto-entrepreneurs {
+  background: url("../images/logos/telogo.png") center center no-repeat;
+}
+
+
+.experience-point {
+  background: url("../images/logos/eplogo.png") center center no-repeat;
+}
+
+
+.queens-school-business {
+  background: url("../images/logos/qsblogo.png") center center no-repeat;
+}
+
+
+.jackson-triggs {
+  background: url("../images/logos/jtlogo.png") center center no-repeat;
+}
+
+
+.queens-mba {
+  background: url("../images/logos/qmbalogo.png") center center no-repeat;
+}
+
+
+.accelerator-center {
+  background: url("../images/logos/aclogo.png") center center no-repeat;
+}
+
+
+.subscribe__text {
+  font: $regular 1.6em/22px "Raleway";
+  color: rgb(55,55,55);
+
+  b {
+    font-weight: $semibold;
+  }
+
+}
+
+
+.comp-coordinator {
+  display: block;
+  padding: 4em 4em 0em 4em;
+}
+
+
+.comp-coordinator__avatar {
+  border-radius: 5em;
+  display: block;
+  margin: 0 auto;
+  width: 6em;
+  margin-bottom: 1em;
+}
+
+
+.comp-coordinator__name {
+  text-align: center;
+  font: $semibold 1.4em/16px "Raleway";
+  color: rgb(20,67,77);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+
+.comp-coordinator__region {
+  text-align: center;
+  font: $bold 1.2em/14px "Raleway";
+  color: rgb(20,67,77);
+  text-transform: uppercase;
+}
+
+
+.comp-coordinator__icon {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font: $regular 3em "materialIcon2";
+  color: rgb(217,217,217);
+  margin-top: 1em;
+}
+
+
+.rounds {
+  padding: 6em 4em;
+  min-width: 50%;
+}
+
+
+.round-one {
+  background: rgb(57,194,222);
+}
+
+
+.round-two {
+  background: rgb(195,210,70);
+}
+
+
+.round__header {
+  font: $bold 2.4em/1.18181818 "Raleway";
+  color: rgb(255,255,255);
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+
+.round__description {
+  font: $regular 2em/1.5 "Raleway";
+  color: rgb(255,255,255);
+  text-align: center;
+}
+
+
+.round__graphic {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.container--contact {
+  width: 100%;
+  padding: 3em 0;
+  background: #34495e;
+  display: -webkit-box;
+   display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.icon-twitter2 {
+  margin-left: 0.5em;
+}
+
+.icon--social {
+  display: inline-block;
+  font: 100 3em "materialIcon2";
+  color: #FFF;
+  text-align: center;
+  border-radius: 5px;
+  // transition fallback
+  -webkit-transition: background-color 0.25s ease-in-out;
+        -moz-transition: background-color 0.25s ease-in-out;
+     -o-transition: background-color 0.25s ease-in-out;
+      transition: background-color 0.25s ease-in-out;
+
+  &:visited {
+    color: #FFF;
+  }
+
+  &:hover, &:focus {
+    background-color: #39c2de;
+    color: #FFF;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .icon--social {
+    margin-top: 0.5em;
+  }
+}
+
+
+// MEDIA
+// -----
+
+@import "media/bootstrap-fix";
