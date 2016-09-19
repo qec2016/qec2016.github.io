@@ -2,151 +2,155 @@
 // -------
 
 .button {
-	font: $medium 1.6em/1.1875em "Raleway";
-	display: block;
-	margin: 0 auto;
-	padding: 0.75em;
-	max-width: 18.75em;
-	width: 100%;
-	border: 0;
-	background: transparent;
-	border-radius: 2px;
-	text-transform: uppercase;
-	text-decoration: none;
-	text-align: center;
-	cursor: pointer;
+  font: $medium 1.6em/1.1875em "Raleway";
+  display: block;
+  margin: 0 auto;
+  padding: 0.75em;
+  max-width: 18.75em;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
 
-	// animations
-	-webkit-transition:
-		background 			0.25s  ease-in-out,
-		color 				0.25s ease-in-out,
-		-webkit-transform 	0.1s  ease-in-out,
-			-ms-transform 	0.1s  ease-in-out,
-				transform 	0.1s  ease-in-out;
+  // animations
+  -webkit-transition:
+    background 			0.25s  ease-in-out,
+    color 				0.25s ease-in-out,
+    -webkit-transform 	0.1s  ease-in-out,
+      -ms-transform 	0.1s  ease-in-out,
+        transform 	0.1s  ease-in-out;
 
-	-moz-transition:
-		background 			0.25s  ease-in-out,
-		color 				0.25s ease-in-out,
-		-webkit-transform 	0.1s  ease-in-out,
-			-ms-transform 	0.1s  ease-in-out,
-				transform 	0.1s  ease-in-out;
+  -moz-transition:
+    background 			0.25s  ease-in-out,
+    color 				0.25s ease-in-out,
+    -webkit-transform 	0.1s  ease-in-out,
+      -ms-transform 	0.1s  ease-in-out,
+        transform 	0.1s  ease-in-out;
 
-	-o-transition:
-		background 			0.25s  ease-in-out,
-		color 				0.25s ease-in-out,
-		-webkit-transform 	0.1s  ease-in-out,
-			-ms-transform 	0.1s  ease-in-out,
-				transform 	0.1s  ease-in-out;
+  -o-transition:
+    background 			0.25s  ease-in-out,
+    color 				0.25s ease-in-out,
+    -webkit-transform 	0.1s  ease-in-out,
+      -ms-transform 	0.1s  ease-in-out,
+        transform 	0.1s  ease-in-out;
 
-	transition:
-		background 			0.25s  ease-in-out,
-		color 				0.25s ease-in-out,
-		-webkit-transform 	0.1s  ease-in-out,
-			-ms-transform 	0.1s  ease-in-out,
-				transform 	0.1s  ease-in-out;
+  transition:
+    background 			0.25s  ease-in-out,
+    color 				0.25s ease-in-out,
+    -webkit-transform 	0.1s  ease-in-out,
+      -ms-transform 	0.1s  ease-in-out,
+        transform 	0.1s  ease-in-out;
 
-	&:hover, &:link, &:hover, &:active {
-		text-decoration: none;
-		cursor: pointer;
-	}
+  &:hover, &:link, &:hover, &:active {
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 
-	&:active {
-		-webkit-transform: scale(0.975,0.975);
-			-ms-transform: scale(0.975,0.975);
-				transform: scale(0.975,0.975);
-	}
+  &:active {
+    -webkit-transform: scale(0.975,0.975);
+      -ms-transform: scale(0.975,0.975);
+        transform: scale(0.975,0.975);
+  }
 
 }
 
 
 .button--white {
-	border: 1px solid rgb(255,255,255);
-	color: rgb(255,255,255);
+  border: 1px solid rgb(255,255,255);
+  color: rgb(255,255,255);
 
-	&:visited {
-		color: rgb(255,255,255);
-	}
+  &:visited {
+    color: rgb(255,255,255);
+  }
 
-	&:hover, &:focus {
-		background: rgb(255,255,255);
-		color: rgb(195,210,70);
-	}
+  &:hover, &:focus {
+    background: rgb(255,255,255);
+    color: rgb(100,100,100);
+  }
 
 }
 
 .blue .button--white:hover, .blue .button--white:focus {
-	color: rgb(57,194,222);
+  color: rgb(57,194,222);
+}
+
+.green .button--white:hover, .green .button--white:focus {
+  color: rgb(195,210,70);
 }
 
 
 .button--blue {
-	border: 1px solid rgb(57,194,222);
-	color: rgb(57,194,222);
+  border: 1px solid rgb(57,194,222);
+  color: rgb(57,194,222);
 
-	&:visited {
-		color: rgb(57,194,222);
-	}
+  &:visited {
+    color: rgb(57,194,222);
+  }
 
-	&:hover, &:focus {
-		background: rgb(57,194,222);
-		color: rgb(255,255,255);
-	}
+  &:hover, &:focus {
+    background: rgb(57,194,222);
+    color: rgb(255,255,255);
+  }
 
 }
 
 
 .button--fade {
-	border: 1px solid rgb(200,200,200);
-	color: rgb(200,200,200);
+  border: 1px solid rgb(200,200,200);
+  color: rgb(200,200,200);
 
-	&:visited {
-		color: rgb(200,200,200);
-	}
+  &:visited {
+    color: rgb(200,200,200);
+  }
 
-	&:hover, &:focus {
-		background: rgb(200,200,200);
-		color: rgb(255,255,255);
-	}
+  &:hover, &:focus {
+    background: rgb(200,200,200);
+    color: rgb(255,255,255);
+  }
 
-	margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 
 .button--contact {
-	font-weight: $semibold;
-	display: inline-block;
-	background: rgb(255,255,255);
-	border-radius: 2em;
-	padding: 1em;
-	color: #34495e;
-	margin: 0;
+  font-weight: $semibold;
+  display: inline-block;
+  background: rgb(255,255,255);
+  border-radius: 2em;
+  padding: 1em;
+  color: #34495e;
+  margin: 0;
 
-	&:visited {
-		color: #34495e;
-	}
+  &:visited {
+    color: #34495e;
+  }
 
-	&:hover, &:focus {
-		color: #39c2de;
-	}
+  &:hover, &:focus {
+    color: #39c2de;
+  }
 }
 
 
 .button--inline {
-	display: inline-block;
-	margin: 1em;
-	margin-bottom: 0em;
+  display: inline-block;
+  margin: 1em;
+  margin-bottom: 0em;
 }
 
 
 .button--competitor {
-	display: inline-block;
-	margin: 2em 1em 0 1em;
+  display: inline-block;
+  margin: 2em 1em 0 1em;
 }
 
 @media screen and (max-width: 736px) {
-	.button--competitor {
-		margin-left: 0em;
-		margin-right: 0em;
-	}
+  .button--competitor {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
 }

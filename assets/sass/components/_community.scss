@@ -1,0 +1,91 @@
+.community-grid {
+  display: block;
+  height: 250px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  overflow: hidden;
+  position: relative;
+  transition: filter .3s ease-in-out;
+  width: 100%;
+  z-index: 0;
+
+  &::before {
+    content: '';
+    display: block;
+    filter: blur(4px) brightness(.6);
+    height: 250px;
+    left: 0;
+    position: relative;
+    right: 0;
+    z-index: -1;
+  }
+
+  &:hover::before {
+    filter: blur(0) brightness(.5);
+  }
+}
+
+.community-grid--active::before {
+  filter: blur(0) brightness(.5);
+}
+
+.community-grid__text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quorum::before {
+  background: url("../images/community-grid/quorum.png") no-repeat;
+  background-size: cover;
+}
+
+.mitigating-advertizing::before {
+  background: url("../images/community-grid/mitigating-advertizing.jpg") no-repeat;
+  background-size: cover;
+}
+
+.sparkgig::before {
+  background: url("../images/community-grid/sparkgig.png") no-repeat;
+  background-size: cover;
+}
+
+.fredsense::before {
+  background: url("../images/community-grid/fredsense.png") no-repeat;
+  background-size: cover;
+}
+
+.voltera::before {
+  background: url("../images/community-grid/voltera.jpg") no-repeat;
+  background-size: cover;
+}
+
+.community-grid__heading,
+.community-grid__sub {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.community-grid__heading {
+  font-weight: $medium;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.community-grid__sub {
+  font-weight: $light;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.community-text {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  display: none;
+}
+
+.community-text--active {
+  display: block;
+}

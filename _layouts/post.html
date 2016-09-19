@@ -1,15 +1,30 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+<!-- masthead -->
+<div class="container-fluid">
+  <div class="row row--row--masthead cars">
+    <div class="col-md-12">
+      <span class="masthead__icon icon-accessibility"></span>
+      <h2 class="masthead__catch">THE QEC BLOG</h1>
+      <p class="masthead__description">Stay up to date with the latest news, insights, and analysis from the QEC team.</p>
+    </div>
   </div>
+</div>
 
-</article>
+<div class="container container--content container--blog container--relative">
+  {% if page.next %}<a href="{{ page.next.url | prepend: site.baseurl }}" class="fa fa-angle-left nav-arrow nav-arrow--left"></a>{% endif %}
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="blog__heading">{{ page.title }}</h3>
+      <p class="blog__sub-head">{{ page.date | date: "%b %-d, %Y" }} &nbsp | &nbsp {{page.author}}</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      {{ content }}
+    </div>
+  </div>
+  {% if page.previous %}<a href="{{ page.previous.url | prepend: site.baseurl }}" class="fa fa-angle-right nav-arrow nav-arrow--right"></a>{% endif %}
+</div>

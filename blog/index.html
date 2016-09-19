@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<!-- masthead -->
+<div class="container-fluid">
+  <div class="row row--row--masthead cars">
+    <div class="col-md-12">
+      <span class="masthead__icon icon-accessibility"></span>
+      <h2 class="masthead__catch">THE QEC BLOG</h1>
+      <p class="masthead__description">Stay up to date with the latest news, insights, and analysis from the QEC team.</p>
+    </div>
+  </div>
+</div>
+
+{% for post in site.posts %}
+  <div class="container container--content container--blog">
+    <div class="row">
+      <div class="col-md-12">
+        <a class="blog__heading" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <p class="blog__sub-head">{{ post.date | date: "%b %-d, %Y" }} &nbsp | &nbsp {{post.author}}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="content__bullet">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+        <p style="margin-bottom: 0"><a href="{{ post.url | prepend: site.baseurl }}">Read more</a></pstyle>
+      </div>
+    </div>
+  </div>
+
+  {% if forloop.last %}{% else %}<hr>{% endif %}
+{% endfor %}

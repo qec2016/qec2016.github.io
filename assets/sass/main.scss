@@ -20,6 +20,8 @@
 @import "components/navigation";
 @import "components/partner";
 @import "components/masthead";
+@import "components/blog";
+@import "components/community";
 
 
 // SETUP
@@ -52,10 +54,22 @@ hr {
   margin: 0;
 }
 
+p {
+  font: $regular 2em/1.5 "Raleway";
+  color: rgb(140,140,140);
+  margin-bottom: 0.83333333em;
+}
 
-.iceberg {
-  background: rgb(57,194,222);
-  //background: url("../images/backgrounds/sunrise.png") center center / 100% no-repeat;
+.desk {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)),
+  url("../images/backgrounds/desk.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.cars {
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),
+  url("../images/backgrounds/cars.jpg") center center no-repeat;
+  background-size: cover;
 }
 
 
@@ -258,7 +272,6 @@ hr {
 .content__bullet--w-button {
   display: inline-block;
 }
-
 
 .sponsor-link {
   font: $bold 2em/6.4em "Raleway";
