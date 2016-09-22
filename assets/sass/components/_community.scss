@@ -84,9 +84,15 @@
 .community-text {
   margin-bottom: 30px;
   margin-top: 30px;
-  display: none;
+  opacity: 0;
+  position: fixed;
+  visibility: hidden;
+  transition: visibility 0s ease-in-out .3s,opacity .3s ease-in-out;
 }
 
 .community-text--active {
-  display: block;
+  opacity: 1;
+  position: static;
+  visibility: visible;
+  transition-delay:0s;
 }
