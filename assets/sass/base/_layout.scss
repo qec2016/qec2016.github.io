@@ -23,19 +23,6 @@
   position: relative;
 }
 
-
-.row--flex {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-
-
 .row--top-30 {
   margin-top: 3em;
 }
