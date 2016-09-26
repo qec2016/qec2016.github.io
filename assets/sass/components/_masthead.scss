@@ -2,100 +2,102 @@
 // --------
 
 .masthead__icon {
-	display: block;
-	margin: 0 auto;
-	width: 2em;
-	height: 2em;
-	font: 100 2em/1.5em "materialIcon";
-	color: #FFF;
-	text-align: center;
-	margin-bottom: 0.714285714em;
-	border: 4px solid #FFF;
-	border-radius: 1.5em;
+  display: block;
+  margin: 0 auto;
+  width: 2em;
+  height: 2em;
+  font: 100 2em/1.5em "materialIcon";
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 0.714285714em;
+  border: 4px solid #FFF;
+  border-radius: 1.5em;
 }
 
 
 .masthead__catch {
-	font: $bold 2.6em/30px "Raleway";
-	color: rgb(255,255,255);
-	text-align: center;
-	text-transform: uppercase;
+  font: $bold 2.6em/30px "Raleway";
+  color: rgb(255,255,255);
+  text-align: center;
+  text-transform: uppercase;
 }
 
 
 .masthead__catch--dark {
-	color: rgba(160,170,190,0.75);
+  color: rgba(160,170,190,0.75);
 }
 
 
 .masthead__catch--sub {
-	font: $medium 2.6em/30px "Raleway";
-	color: rgb(55,55,55);
-	text-align: center;
-	margin-bottom: 10px;
-	text-transform: uppercase;
+  font: $medium 2.6em/30px "Raleway";
+  color: rgb(55,55,55);
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 
 .masthead__catch--sub--sub {
-	font: $regular 2em/30px "Raleway";
-	color: rgb(55,55,55);
-	text-align: center;
-	margin-bottom: 10px;
-	text-transform: uppercase;
+  font: $regular 2em/30px "Raleway";
+  color: rgb(55,55,55);
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 
 .masthead__description {
-	font: $ultralight 4em/1.2 "Raleway";
-	margin: 0 auto;
-	max-width: 800px;
-	color: rgb(255,255,255);
-	text-align: center;
+  font: $ultralight 4em/1.2 "Raleway";
+  margin: 0 auto;
+  max-width: 800px;
+  color: rgb(255,255,255);
+  text-align: center;
+  text-transform: none;
 }
 
 .masthead__description--hero {
-	font: $regular 2.6em/1.4em "Raleway";
-	margin-bottom: 1.1538em;
+  font: $regular 2.6em/1.4em "Raleway";
+  margin-bottom: 1.1538em;
+  text-transform: none;
 }
 
 
 .masthead__description--dark {
-	color: rgb(60,70,90);
+  color: rgb(60,70,90);
 }
 
 
 .masthead__description--sub {
-	font: $regular 1.8em/24px "Raleway";
-	margin: 0 auto;
-	max-width: 600px;
-	color: rgb(100,100,100);
-	text-align: center;
-	margin-bottom: 30px;
+  font: $regular 1.8em/24px "Raleway";
+  margin: 0 auto;
+  max-width: 600px;
+  color: rgb(100,100,100);
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 
 .masthead__helper {
-	border-top: 1px solid rgba(255,255,255,0.25);
-	padding-top: 3em;
+  border-top: 1px solid rgba(255,255,255,0.25);
+  padding-top: 3em;
 
-	& .masthead__helper__logo {
-		display: inline-block;
-		width: 20em;
-		margin-top: 1em;
-	}
+  & .masthead__helper__logo {
+    display: inline-block;
+    width: 20em;
+    margin-top: 1em;
+  }
 
-	& .masthead__helper__text {
-		font: $regular 2em/28px "Raleway";
-		color: rgb(255,255,255);
-	}
+  & .masthead__helper__text {
+    font: $regular 2em/28px "Raleway";
+    color: rgb(255,255,255);
+  }
 
 }
 
 
 .masthead__qec-logo {
-	display: inline-block;
-	height: 5em;
-	width: 5em;
-	background: url("../images/logo/qec.offwhite.png") center center / 100% no-repeat;
+  display: inline-block;
+  height: 5em;
+  width: 5em;
+  background: url("../images/logo/qec.offwhite.png") center center / 100% no-repeat;
 }

@@ -167,6 +167,10 @@ p {
     font: $regular 1.6em/24px "Raleway";
     color: rgb(124,124,124);
     text-align: center;
+
+    &::before{
+      content: none;
+    }
   }
 
 }
@@ -231,6 +235,7 @@ p {
   color: rgb(55,55,55);
   margin-bottom: 1.5em;
   text-align: center;
+  text-transform: none;
 }
 
 
