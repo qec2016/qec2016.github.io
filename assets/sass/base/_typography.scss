@@ -93,6 +93,12 @@ h3 {
   text-transform: uppercase;
 }
 
+strong {
+  color: rgb(105,105,105);
+  font-weight: $semibold;
+  font-size: 1.05em;
+}
+
 blockquote {
   font-size: 1.4em;
   margin: 2.5em auto;
