@@ -122,6 +122,18 @@ p {
 }
 
 
+.banner {
+  background: rgb(245,245,245);
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+  left: 0;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+
 .accolades {
   background: rgb(248,248,248);
   border-top: 1px solid rgb(224,224,224);
@@ -258,6 +270,15 @@ p {
   font-size: 3em;
   color: rgb(60,70,90);
   max-width: 800px;
+}
+
+.content__heading--banner {
+  color: rgb(100,100,100);
+  margin-bottom: 0;
+  letter-spacing: 0.05em;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: $light;
 }
 
 .content__bullet {
