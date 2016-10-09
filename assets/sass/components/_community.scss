@@ -37,8 +37,13 @@
   transform: translate(-50%, -50%);
 }
 
+.vitameter::before {
+  background: url("../images/community-grid/vitameter.jpg") no-repeat;
+  background-size: cover;
+}
+
 .quorum::before {
-  background: url("../images/community-grid/quorum.png") no-repeat;
+  background: url("../images/community-grid/quorum.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -48,12 +53,12 @@
 }
 
 .sparkgig::before {
-  background: url("../images/community-grid/sparkgig.png") no-repeat;
+  background: url("../images/community-grid/sparkgig.jpg") no-repeat;
   background-size: cover;
 }
 
 .fredsense::before {
-  background: url("../images/community-grid/fredsense.png") no-repeat;
+  background: url("../images/community-grid/fredsense.jpg") no-repeat;
   background-size: cover;
 }
 

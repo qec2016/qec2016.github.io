@@ -38,10 +38,6 @@ body {
   background: rgb(57,194,222);
 }
 
-.green {
-  background: rgb(195,210,70);
-}
-
 .light-blue {
   background: rgb(248,251,253);
 }
@@ -64,24 +60,28 @@ p {
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)),
   url("../images/backgrounds/desk.jpg") center center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .cars {
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),
   url("../images/backgrounds/cars.jpg") center center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 
 .community-housing {
   background: url("../images/backgrounds/community.housing.jpg") center center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 
 .canoeing {
   background: url("../images/backgrounds/canoeing.jpg") center center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 
@@ -89,6 +89,7 @@ p {
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)),
   url("../images/backgrounds/entrepreneur.hallway.jpg") center center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 
@@ -96,13 +97,15 @@ p {
   background: linear-gradient(rgba(100,110,150,0.6), rgba(100,140,100,0.8)),
   url("../images/backgrounds/windows.jpg") center center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 
 .hero {
   background: url("../images/backgrounds/hero.jpg") center center no-repeat;
   background-size: cover;
-  padding: 22em 0 16em;
+  padding: 27em 0 16em;
+  background-attachment: fixed;
 }
 
 
