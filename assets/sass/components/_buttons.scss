@@ -113,6 +113,7 @@
     color: rgb(200,200,200);
   }
 
+
   &:hover, &:focus {
     background: rgb(200,200,200);
     color: rgb(255,255,255);
@@ -140,22 +141,14 @@
   }
 }
 
-
-.button--inline {
-  display: inline-block;
-  margin: 1em;
-  margin-bottom: 0em;
-}
-
-
 .button--competitor {
   display: inline-block;
-  margin: 2em 1em 0 1em;
+  margin: 2em 1em 0;
 }
 
-@media screen and (max-width: 736px) {
-  .button--competitor {
-    margin-left: 0em;
-    margin-right: 0em;
+.button--competitor--stacked {
+  @media screen and (max-width: 991px) {
+    display: block;
+    margin: 0 auto;
   }
 }
