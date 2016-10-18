@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Life after the QEC 2016: SwineTech"
+title:  "Life After the QEC 2016: SwineTech"
 author: "The QEC"
 ---
 

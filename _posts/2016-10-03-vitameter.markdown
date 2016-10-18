@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Life after the QEC 2016: Vitameter"
+title:  "Life After the QEC 2016: Vitameter"
 author: "The QEC"
 ---
 
