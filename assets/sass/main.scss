@@ -475,7 +475,10 @@ p {
   justify-content: space-around;
   align-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+
+  @media screen and (max-width: 378px) {
+    flex-wrap: wrap; //only add when it should break, since safari forces wrap even when there's space
+  }
 }
 
 .icon-twitter2 {
@@ -503,13 +506,12 @@ p {
     color: #FFF;
     text-decoration: none;
   }
-}
 
-@media screen and (max-width: 378px) {
-  .icon--social {
-    margin-top: 0.5em;
+  @media screen and (max-width: 378px) {
+    margin-top: .5em;
   }
 }
+
 
 
 // MEDIA
