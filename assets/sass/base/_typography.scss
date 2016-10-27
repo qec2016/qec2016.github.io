@@ -93,6 +93,12 @@ h3 {
   text-transform: uppercase;
 }
 
+p {
+  font: $regular 2em/1.5 "Raleway";
+  color: rgb(140,140,140);
+  margin-bottom: 0.83333333em;
+}
+
 strong {
   color: rgb(105,105,105);
   font-weight: $semibold;
@@ -118,4 +124,18 @@ blockquote {
     position: relative;
     vertical-align: -0.4em;
   }
+}
+
+ol {
+  font: $regular 2em/1.5 "Raleway";
+  color: rgb(140,140,140);
+}
+
+ol > li {
+  margin-bottom: 0.83333333em;
+}
+
+li > ul,
+li> ol {
+  margin-left: 3em;
 }
