@@ -4,7 +4,7 @@ title:  "Last Minute Tips for Business Plan Submissions"
 author: "Agnes Wong"
 ---
 
-If you’re looking to catch that October 29th deadline for submissions to The QEC 2017, it’s probably too late to create a business plan from scratch (consider this a friendly challenge and DM me if end up writing and submitting a business plan in 3 days). However, for those of you casually strolling towards the finish line, here are some tips to help you polish up your business plans and make sure you are putting your best foot forward.
+If you’re looking to catch that October 29th deadline for submissions to The QEC 2017, it’s probably too late to create a business plan from scratch (consider this a friendly challenge and DM me if you end up writing and submitting a business plan in 3 days). However, for those of you casually strolling towards the finish line, here are some tips to help you polish up your business plans and make sure you are putting your best foot forward.
 
 1.	Make sure that your business plan includes the following items. This will keep your business plan organized and help judges better understand the key aspects of your business.
   -	The official QEC title page
