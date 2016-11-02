@@ -18,7 +18,7 @@
 
 @import "components/buttons";
 @import "components/navigation";
-@import "components/partner";
+@import "components/sponsorship";
 @import "components/masthead";
 @import "components/blog";
 @import "components/community";
@@ -307,62 +307,6 @@ hr {
 
 .content__bullet--w-button {
   display: inline-block;
-}
-
-.sponsor-link {
-  font: $bold 2em/6.4em "Raleway";
-  display: block;
-  height: 6.4em;
-  width: 100%;
-  color: rgb(147,166,185);
-  text-align: center;
-  text-transform: uppercase;
-
-  &:hover, &:link, &:hover, &:active {
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-}
-
-
-.sponsor-link--blue {
-  color: rgb(57,194,222);
-}
-
-
-.loyalty-one {
-  background: url("../images/logos/lologo.png") center center no-repeat;
-}
-
-
-.toronto-entrepreneurs {
-  background: url("../images/logos/telogo.png") center center no-repeat;
-}
-
-
-.experience-point {
-  background: url("../images/logos/eplogo.png") center center no-repeat;
-}
-
-
-.queens-school-business {
-  background: url("../images/logos/qsblogo.png") center center no-repeat;
-}
-
-
-.jackson-triggs {
-  background: url("../images/logos/jtlogo.png") center center no-repeat;
-}
-
-
-.queens-mba {
-  background: url("../images/logos/qmbalogo.png") center center no-repeat;
-}
-
-
-.accelerator-center {
-  background: url("../images/logos/aclogo.png") center center no-repeat;
 }
 
 
