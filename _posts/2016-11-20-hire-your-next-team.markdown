@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to hire your next bomb-tastic team"
-author: "The QEC"
+author: "Sara Lian"
 ---
 
 Thinking of turning your idea into a small business or startup? One of the first things you’ll need to consider is who to take into your team. While hiring people can be some of the toughest decisions that you’ll need to make early on, there are a few simple considerations to make and key qualities you’ll surely want to consider. Here’s some advice we’ve gathered from speaking to successful startups and past competitors of The QEC.
