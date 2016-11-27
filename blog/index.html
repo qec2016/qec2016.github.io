@@ -23,10 +23,10 @@ layout: default
     <div class="row">
       <div class="col-md-12">
         <p class="content__bullet">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-        <p style="margin-bottom: 0"><a href="{{ post.url | prepend: site.baseurl }}">Read more</a></pstyle>
+        <p style="margin-bottom: 0"><a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
       </div>
     </div>
   </div>
 
-  {% if forloop.last %}{% else %}<hr>{% endif %}
+  {% if forloop.last %}{% else %}<hr class="divider" />{% endif %}
 {% endfor %}

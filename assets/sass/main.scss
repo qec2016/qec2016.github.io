@@ -27,6 +27,10 @@
 // SETUP
 // -----
 
+.divider {
+  margin: 0;
+}
+
 body {
   // bootstrap font-size: 14px overwritten
   font-size: 62.5%;
@@ -45,10 +49,6 @@ body {
 
 // MAIN
 // ----
-
-hr {
-  margin: 0;
-}
 
 .desk {
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)),
@@ -450,6 +450,11 @@ hr {
   }
 }
 
+p > img {
+  display: block;
+  margin: 0 auto;
+  max-height: 300px;
+}
 
 
 // MEDIA
