@@ -53,6 +53,6 @@ function gridSlider(parent, child) {
 if (location.pathname == '/community/') {
   gridSlider('community-grid', 'community-text');
 }
-else {
+else if (location.pathname == '/sponsorship/') {
   gridSlider('partner', 'partner-text');
 }

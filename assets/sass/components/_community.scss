@@ -87,12 +87,15 @@
 }
 
 .community-text {
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin: 3em 0;
   max-height: 0;
   overflow: hidden;
   transition: max-height .3s ease-in-out;
   position: fixed;
+
+  @media screen and (max-width: 992px) {
+    margin: 3em 1em;
+  }
 }
 
 .community-text--active {
