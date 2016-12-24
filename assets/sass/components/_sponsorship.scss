@@ -40,6 +40,24 @@
   width: 75%;
   margin: 2em auto;
   background: rgb(255,255,255);
+  cursor: pointer;
+}
+
+.partner--active {
+  transform: scale(1.1);
+}
+
+.partner-text {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .3s ease-in-out;
+  position: fixed;
+}
+
+.partner-text--active {
+  max-height: 700px;
 }
 
 .partner__logo {

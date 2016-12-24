@@ -1,6 +1,5 @@
-(function() {
-  var gridItems = document.querySelectorAll('.community-grid');
-  var container = document.querySelector('.container');
+function gridSlider(parent, child) {
+  var gridItems = document.querySelectorAll('.' + parent);
   var activeText;
   var activeGrid;
 
@@ -12,13 +11,13 @@
     else {
       var text = textList[1];
     }
-    if (!text.classList.contains('community-text--active')) {
-      text.classList.add('community-text--active');
-      this.classList.add('community-grid--active');
+    if (!text.classList.contains(child + '--active')) {
+      text.classList.add(child + '--active');
+      this.classList.add(parent + '--active');
       text.style.position = 'static';
       if (activeText) {
-        activeText.classList.remove('community-text--active');
-        activeGrid.classList.remove('community-grid--active');
+        activeText.classList.remove(child + '--active');
+        activeGrid.classList.remove(parent + '--active');
         // wait until transition is complete to change positioning
         setTimeout(function() {
           activeText.style.position = 'fixed';
@@ -33,8 +32,8 @@
       }, 300);
     }
     else {
-      text.classList.remove('community-text--active');
-      this.classList.remove('community-grid--active');
+      text.classList.remove(child + '--active');
+      this.classList.remove(parent + '--active');
       // wait until transition is complete to change positioning
       setTimeout(function() {
         text.style.position = 'fixed';
@@ -44,9 +43,16 @@
     }
   }
 
-  (function addToggleListener() {
+  (function() {
     for (var i = 0; i < gridItems.length; i++) {
       gridItems[i].addEventListener('click', toggle, false);
     }
   })();
-})();
+}
+
+if (location.pathname == '/community/') {
+  gridSlider('community-grid', 'community-text');
+}
+else {
+  gridSlider('partner', 'partner-text');
+}
