@@ -89,15 +89,12 @@
 .community-text {
   margin-bottom: 30px;
   margin-top: 30px;
-  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .3s ease-in-out;
   position: fixed;
-  visibility: hidden;
-  transition: visibility 0s ease-in-out .3s,opacity .3s ease-in-out;
 }
 
 .community-text--active {
-  opacity: 1;
-  position: static;
-  visibility: visible;
-  transition-delay:0s;
+  max-height: 700px;
 }
