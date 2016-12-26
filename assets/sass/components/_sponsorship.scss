@@ -45,6 +45,10 @@
   transition: all 0.2s ease-in-out;
 }
 
+.partner--no-bio {
+  cursor: default;
+}
+
 .partner--active {
   transform: scale(1.05);
 }
