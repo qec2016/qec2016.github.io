@@ -98,10 +98,14 @@ body {
 .hero {
   background: url("../images/backgrounds/hero.jpg") center center no-repeat;
   background-size: cover;
-  padding: 27em 0 16em;
+  height: 100vh;
   background-attachment: fixed;
 }
 
+.hero__text {
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 .hero__logo {
   width: 80%;
