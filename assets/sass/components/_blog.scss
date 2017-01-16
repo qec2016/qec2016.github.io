@@ -2,7 +2,7 @@
   color: rgb(140,140,140);
   display: block;
   font-size: 6em;
-  position: absolute;
+  position: fixed;
   top: calc(50% - .5em);
 
   &:hover {
@@ -10,14 +10,18 @@
     text-decoration: none;
     transform: scale(1.1);
   }
+
+  @media screen and (max-width: 800px) {
+    display: none
+  }
 }
 
 .nav-arrow--right {
-  right: -75px;
+  right: .25em;
 }
 
 .nav-arrow--left {
-  left: -75px;
+  left: .25em;
 }
 
 .blog__heading {
