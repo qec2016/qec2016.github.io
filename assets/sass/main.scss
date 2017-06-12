@@ -96,26 +96,28 @@ body {
 
 
 .hero {
-  background: url("../images/backgrounds/hero.jpg") center center no-repeat;
-  background-size: cover;
-  height: 100vh;
+  background: url("../images/backgrounds/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
   background-attachment: fixed;
-}
 
-.hero__text {
-  top: 50%;
-  transform: translateY(-50%);
+  @media screen and (max-width: 1200px) {
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .hero__logo {
-  width: 80%;
+  filter: invert(100%);
+  width: 40%;
 }
 
 .hero__date {
-  color: white;
+  color: black;
   font: $bold 5em "Raleway", sans-serif;
   text-transform: uppercase;
   margin: 1.5em 0.5em 0;
+  font-size: 3em;
 
   @media screen and (max-width: 500px) {
     font-size: 3em;
