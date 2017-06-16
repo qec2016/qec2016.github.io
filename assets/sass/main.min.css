@@ -156,7 +156,7 @@ li > ol {
   text-transform: uppercase; }
 
 .row--row--masthead {
-  padding: 16em 0 10em 0; }
+  padding: 20em 0; }
 
 .row--full-col {
   display: table; }
@@ -628,6 +628,8 @@ li > ol {
   font: 300 2.6em/1.4em "Raleway";
   margin-bottom: 1.1538em;
   text-transform: none; }
+  .masthead__description--hero.dark {
+    color: #3c465a; }
 
 .masthead__description--dark {
   color: #3c465a; }
@@ -790,6 +792,30 @@ body {
 .light-blue {
   background: #f8fbfd; }
 
+.thirty-banner__root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #39c2de;
+  padding: 20px; }
+  @media screen and (max-width: 768px) {
+    .thirty-banner__root {
+      flex-direction: column;
+      padding: 20px; } }
+
+.thirty-banner__header {
+  font: 600 1.6em "Raleway";
+  color: #fff; }
+  @media screen and (max-width: 768px) {
+    .thirty-banner__header {
+      margin-bottom: 10px; } }
+
+.thirty-banner__subheader {
+  font: 400 1.6em "Raleway";
+  color: #fff;
+  margin-left: 20px; }
+
 .desk {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/backgrounds/desk.jpg") center center no-repeat;
   background-size: cover;
@@ -823,9 +849,8 @@ body {
 .hero {
   background: url("../images/backgrounds/hero.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-attachment: fixed; }
-  @media screen and (max-width: 1200px) {
+  background-size: 110%; }
+  @media screen and (max-width: 768px) {
     .hero {
       background-size: cover;
       background-position: center; } }

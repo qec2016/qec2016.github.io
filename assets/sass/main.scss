@@ -46,6 +46,36 @@ body {
   background: rgb(248,251,253);
 }
 
+// NEW
+
+.thirty-banner__root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(57,194,222);
+  padding: 20px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+
+.thirty-banner__header {
+  font: 600 1.6em "Raleway";
+  color: #fff;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 10px;
+  }
+}
+
+.thirty-banner__subheader {
+  font: 400 1.6em "Raleway";
+  color: #fff;
+  margin-left: 20px;
+}
 
 // MAIN
 // ----
@@ -98,10 +128,10 @@ body {
 .hero {
   background: url("../images/backgrounds/hero.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-attachment: fixed;
+  background-size: 110%;
+  // background-attachment: fixed;
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 768px) {
     background-size: cover;
     background-position: center;
   }

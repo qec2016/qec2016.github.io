@@ -59,6 +59,9 @@
   font: $light 2.6em/1.4em "Raleway";
   margin-bottom: 1.1538em;
   text-transform: none;
+  &.dark {
+    color: #3c465a;
+  }
 }
 
 
